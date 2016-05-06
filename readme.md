@@ -2,20 +2,18 @@
 by Jake Kara
 jkara@trendct.org
 
-
-
 (With a handy module for generalizing lookup to other data sets)
 
 ### Files
 
 1. example.py - Simple command line util for translating a ct town or village name to the proper town name, such as New Preston to Washington. Example usage:
 
-    $ python example.py New\ Preston
-    WASHINGTON
+     $ python example.py New\ Preston
+     WASHINGTON
 
 2. example2.py - Command line util for generating a CSV file with a new column for cleaned up names. Example usage:
 
-    $ python example2.py Town Town_clean sample_data/Abuse\ report\ -\ For\ JSON.csv sample_data/output.csv
+     $ python example2.py Town Town_clean sample_data/Abuse\ report\ -\ For\ JSON.csv sample_data/output.csv
 
 3. ctclean.py - Module for cleaning ct village names
 
